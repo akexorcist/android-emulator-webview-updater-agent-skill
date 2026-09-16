@@ -6,24 +6,11 @@ It lists your AVDs, asks which one to update, validates the WebView APK you prov
 
 ## Install
 
-In [Claude Code](https://claude.com/claude-code), copy the skill into your skills directory:
-
-```bash
-git clone git@github.com:akexorcist/android-emulator-webview-updater-agent-skill.git
-cp -r android-emulator-webview-updater-agent-skill/skills/android-emulator-webview-updater ~/.claude/skills/
-```
-
-For other Agent Skills-compatible tools, place `skills/android-emulator-webview-updater/SKILL.md` wherever that tool loads skills from.
+Copy `skills/android-emulator-webview-updater` into your agent's skills directory, or tell your agent to add it from this repo.
 
 ## Usage
 
-In Claude Code:
-
-```
-/android-emulator-webview-updater
-```
-
-Or just ask, e.g. "the emulator's webview is outdated" / "update webview on my API 25 emulator". You'll be asked which AVD, and for the path to a WebView APK.
+Ask your agent to update the WebView on an emulator, e.g. "the emulator's webview is outdated" / "update webview on my API 25 emulator". You'll be asked which AVD, and for the path to a WebView APK.
 
 ## License
 
